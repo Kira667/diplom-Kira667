@@ -1317,20 +1317,30 @@
 
  @media (max-width: 640px) {
 
+     html {
+         font-size: 60%;
+     }
+
      .header {
-         display: flex;
-         flex-direction: column;
-         justify-content: center;
-         min-height: 100vh;
-         max-width: 100%;
+
+         width: 100%;
+         max-height: 100vh;
          background-image: url("./sources/img/banner-mobile.jpg");
          text-align: center;
          background-color: rgba(0, 0, 0, 0.5);
      }
 
      .header-title {
-         font-size: 26px;
-         line-height: 40px;
+         width: 275px;
+         font-size: 2.6rem;
+         margin-top: 40px;
+     }
+
+     .noemi-logo {
+         margin-top: 150px;
+         width: 270px;
+         margin-left: 30px;
+
      }
 
      .header-navigation {
@@ -1340,21 +1350,64 @@
 
      .main-content {
 
-         display: flex;
+
+         flex: 1;
+         margin-right: auto;
+         margin-left: auto;
+
+     }
+
+     .main-content-wrapper {
          flex-direction: column;
 
+         margin-right: 15px;
+         margin-left: 15px;
+         padding: 0;
+     }
+
+     .posts {
+         margin-left: 0;
+     }
+
+     .post {
+         flex-direction: column;
+         width: 100%;
+     }
+
+     .post-meta {
+         margin-bottom: 15px;
+     }
+
+     .post-title {
+         width: 100%;
+         justify-content: flex-start;
+     }
+
+     .post-text {
+         font-size: 14px;
+     }
+
+     .post-media {
+         width: 100%;
      }
 
      .side-bar {
-         display: none;
+         width: 100%;
+         margin-left: auto;
+         margin-right: auto;
      }
 
+
      .shop {
-         max-width: 400px;
+         flex-direction: column;
+         width: 100%;
+         align-items: center;
+
      }
 
      .shop-card {
          max-width: 100%;
+
      }
 
      .aside-title {
@@ -1399,5 +1452,43 @@
 
      .post-title {
          font-size: 17px;
+     }
+
+     .popup__content {
+         padding: 30px 25px;
+     }
+
+     .subscribe-form-button {
+         width: 100%;
+     }
+
+     .posts-search-form {
+         width: 100%;
+     }
+
+     .subscribe-form-input {
+         width: 100%;
+     }
+
+     .posts-search-input {
+         width: 85%;
+
+     }
+
+     .tags-list {
+         display: flex;
+         flex-direction: row;
+         width: 100%;
+     }
+
+     .categories-title {
+         align-items: center;
+
+     }
+
+     .footer {
+         padding-bottom: 45px;
+         padding-left: 15px;
+         padding-right: 15px;
      }
  }
