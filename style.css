@@ -1323,7 +1323,7 @@
 
      .header {
 
-         width: 365px;
+         width: 376px;
          max-height: 100vh;
          background-image: url("./sources/img/banner-mobile.jpg");
          text-align: center;
@@ -1386,11 +1386,11 @@
 
      .post-text {
          font-size: 14px;
-         width: 330px;
+         width: 345px;
      }
 
      .post-image {
-         width: 334px;
+         width: 350px;
      }
 
      .side-bar {
@@ -1431,7 +1431,7 @@
      .trend-posts {
          display: flex;
          flex-wrap: center;
-         width: 270px;
+         width: 260px;
      }
 
      .trend-post {
@@ -1448,9 +1448,8 @@
      .trend-container {
          flex-grow: 1;
          min-height: 230px;
-         padding-left: 20px;
-         padding-right: 20px;
-         width: 325px;
+
+         width: 380px;
      }
 
      .trend-image {
@@ -1500,9 +1499,15 @@
      }
 
      .categories-title {
-         align-items: center;
-
+         text-align: center;
+         margin: 0 0 20px;
+         font-size: 14px;
+         font-weight: bold;
+         margin-top: 60px;
+         padding-left: 35px;
+         text-transform: uppercase;
      }
+
 
      .footer {
          padding-bottom: 45px;
