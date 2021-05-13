@@ -1338,11 +1338,12 @@
      }
 
      .noemi-logo {
-         margin-top: 150px;
+         
          width: 450px;
-         margin-left: 20px;
+         
          text-align: center;
-         padding-bottom: 20px;
+         padding: auto;
+         margin: auto;
      }
 
      .header-navigation {
