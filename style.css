@@ -1342,8 +1342,9 @@
          width: 450px;
          
          text-align: center;
-         padding: auto;
-         margin: auto;
+         margin-left: 30px
+         margin-top: 150px;
+
      }
 
      .header-navigation {
