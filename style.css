@@ -1350,7 +1350,7 @@
      .header-navigation {
          padding-left: 15px;
          padding-right: 15px;
-         width: 180px;
+
      }
 
      .main-content {
@@ -1384,7 +1384,7 @@
      }
 
      .post-title {
-         width: 360px;
+         width: 100%;
          justify-content: flex-start;
      }
 
