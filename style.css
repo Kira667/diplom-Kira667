@@ -1318,29 +1318,29 @@
  @media (max-width: 640px) {
 
      html {
-         font-size: 60%;
+     	font-size: 60%;
      }
 
      .header {
 
-         width: 376px;
+         width: 412px;
          max-height: 100vh;
+
          background-image: url("./sources/img/banner-mobile.jpg");
          text-align: center;
          background-color: rgba(0, 0, 0, 0.5);
      }
 
      .header-title {
-         font-size: 26px;
-         line-height: 1.385;
+         width: 275px;
+        font-size: 2.6rem;
+        margin-top: -20px;
      }
 
      .noemi-logo {
-         margin-bottom: -60px;
-
          margin-top: 150px;
-         width: 270px;
-         margin-left: 30px;
+        width: 350px;
+        margin-left: 30px;
          text-align: center;
      }
 
@@ -1380,17 +1380,17 @@
      }
 
      .post-title {
-         width: 330px;
+         width: 360px;
          justify-content: flex-start;
      }
 
      .post-text {
          font-size: 14px;
-         width: 345px;
+         width: 360px;
      }
 
      .post-image {
-         width: 350px;
+         width: 107vw;
      }
 
      .side-bar {
@@ -1428,10 +1428,14 @@
          font-size: 14px;
      }
 
+     .trend {
+        
+     }
+
      .trend-posts {
          display: flex;
          flex-wrap: center;
-         width: 260px;
+          width: 100vw;
      }
 
      .trend-post {
@@ -1449,11 +1453,11 @@
          flex-grow: 1;
          min-height: 230px;
 
-         width: 380px;
+         width: 117vw;
      }
 
      .trend-image {
-         width: 100%;
+         width: 412px;
      }
 
      .trend-content {
