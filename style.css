@@ -1338,12 +1338,11 @@
      }
 
      .noemi-logo {
-         
+
          width: 450px;
-         
+
          text-align: center;
-         margin-left: 30px
-         margin-top: 150px;
+         margin-left: 30px margin-top: 150px;
 
      }
 
@@ -1446,9 +1445,7 @@
 
      }
 
-     .trend-post:nth-child(2n+1) {
-         margin-right: 0.39%;
-     }
+
 
      .trend-container {
          flex-grow: 1;
