@@ -1452,11 +1452,11 @@
          flex-grow: 1;
          min-height: 230px;
 
-         width: 117vw;
+         width: 100vw;
      }
 
      .trend-image {
-         width: 412px;
+         width: 100vw;
      }
 
      .trend-content {
