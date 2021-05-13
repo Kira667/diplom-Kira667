@@ -1372,7 +1372,7 @@
 
      .post {
          flex-direction: column;
-         width: 100%;
+         width: 360px;
      }
 
      .post-meta {
@@ -1390,7 +1390,7 @@
      }
 
      .post-image {
-         width: 100vw;
+         width: 370px;
      }
 
      .side-bar {
