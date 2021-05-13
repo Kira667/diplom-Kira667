@@ -1228,11 +1228,17 @@
 
 
      .shop-container {
-         justify-content: space-between;
+        display: flex;
+         flex-direction: row;
      }
 
      .shop-card {
-         max-width: 46%;
+         max-width: 100%;
+
+         margin-bottom: 60px;
+
+
+         
      }
 
      .trend .aside-title {
@@ -1246,28 +1252,36 @@
 
      .trend-posts {
          display: flex;
-         flex-wrap: wrap;
+         flex-direction: row;
+         width: 100%;
      }
 
      .trend-post {
          display: flex;
          margin-bottom: 3px;
-         width: 49.805%;
+
      }
 
-     .trend-post:nth-child(2n+1) {
-         margin-right: 0.39%;
+     .trend-post:nth-child(2n+3) {
+         width: 50%;
      }
+
 
      .trend-container {
          flex-grow: 1;
-         min-height: 245px;
+         min-height: 242px;
          padding-left: 20px;
          padding-right: 20px;
+
      }
 
      .trend-content {
          padding: 8% 15.7% 8% 8%;
+     }
+
+     .trend-image {
+         display: flex;
+
      }
 
      .post-title {
@@ -1277,7 +1291,7 @@
      .main-content {
          display: flex;
          flex-wrap: wrap;
-         justify-content: space-between;
+        
      }
 
      .main-content-wrapper {
@@ -1286,7 +1300,7 @@
      }
 
      .posts {
-         width: 56.16%;
+         width: 100%;
      }
 
      .post {
@@ -1394,7 +1408,7 @@
      }
 
      .post-image {
-         width: 370px;
+         width: auto;
      }
 
      .side-bar {
