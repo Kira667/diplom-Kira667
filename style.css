@@ -1318,7 +1318,7 @@
  @media (max-width: 640px) {
 
      html {
-     	font-size: 60%;
+         font-size: 60%;
      }
 
      .header {
@@ -1333,15 +1333,16 @@
 
      .header-title {
          width: 275px;
-        font-size: 2.6rem;
-        margin-top: -20px;
+         font-size: 2.6rem;
+         padding-top: 10px;
      }
 
      .noemi-logo {
          margin-top: 150px;
-        width: 450px;
-        margin-left: 20px;
+         width: 450px;
+         margin-left: 20px;
          text-align: center;
+         padding-bottom: 20px;
      }
 
      .header-navigation {
@@ -1428,14 +1429,12 @@
          font-size: 14px;
      }
 
-     .trend {
-        
-     }
+     .trend {}
 
      .trend-posts {
          display: flex;
          flex-wrap: center;
-          width: 100vw;
+         width: 100vw;
      }
 
      .trend-post {
