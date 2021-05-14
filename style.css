@@ -1213,6 +1213,9 @@
 
 
  @media (min-width: 641px) and (max-width: 1200px) {
+    html {
+         font-size: 100%;
+     }
      .header__burger {
          top: 52px;
          right: 35px;
@@ -1251,13 +1254,13 @@
      }
 
      .trend-posts {
-         display: flex;
-         flex-direction: row;
+
+
          width: 100%;
      }
 
      .trend-post {
-         display: flex;
+
          margin-bottom: 3px;
 
      }
@@ -1280,52 +1283,67 @@
      }
 
      .trend-image {
-         display: flex;
+         width: 50%;
 
      }
 
      .post-title {
          font-size: 17px;
+
+
      }
 
      .main-content {
          display: flex;
          flex-wrap: wrap;
 
+
      }
 
      .main-content-wrapper {
-         padding-left: 35px;
-         padding-right: 35px;
+         flex-direction: column;
+         margin-top: 45px;
+         margin-right: auto;
+         margin-left: auto;
+         padding: 0;
+
      }
 
      .posts {
-         width: 100%;
+         margin-left: 0;
+
      }
 
      .post {
-         padding-bottom: 17px;
-         border-bottom: 3px solid #eeeeee;
-     }
-
-     .post:nth-child(n+2) {
-         margin-top: 40px;
-     }
-
-     .post:last-child {
-         border: 0;
-     }
-
-     .post-title {
-         margin-bottom: 25px;
+         flex-direction: column;
+         width: 360px;
      }
 
      .post-meta {
-         margin-bottom: 30px;
+         margin-bottom: 15px;
+     }
+
+     .post-title {
+         width: 100%;
+         justify-content: flex-start;
      }
 
      .post-text {
-         font-size: 15px;
+         font-size: 14px;
+         width: 360px;
+     }
+
+     .post-image {
+         width: auto;
+     }
+
+     .side-bar {
+         padding-top: 0;
+         width: 40%;
+         margin-left: auto;
+         margin-right: 0;
+         margin-top: 20px;
+
      }
  }
 
