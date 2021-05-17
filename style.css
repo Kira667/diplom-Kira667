@@ -1494,6 +1494,7 @@
          display: flex;
          flex-wrap: center;
          width: 100vw;
+
      }
 
      .trend-post {
@@ -1503,7 +1504,17 @@
 
      }
 
+     .trend-post:nth-child(2) {
+         margin-left: 0;
+     }
 
+     .trend-post:nth-child(3) {
+         margin-left: 0;
+     }
+
+     .trend-post:nth-child(4) {
+         margin-left: 0;
+     }
 
      .trend-container {
          flex-grow: 1;
@@ -1514,6 +1525,7 @@
 
      .trend-image {
          width: 100vw;
+
      }
 
      .trend-content {
