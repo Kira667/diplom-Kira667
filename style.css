@@ -787,13 +787,12 @@
  }
 
  .trend-post:nth-child(n+2) {
-     margin-left: 0.24%;
+     margin-left: 3px;
  }
 
  .trend-container {
      min-height: 320px;
-     padding-left: 20px;
-     padding-right: 20px;
+
  }
 
  .trend-content {
@@ -1256,36 +1255,37 @@
 
      .trend-posts {
 
+         display: flex;
+         flex-wrap: wrap;
 
-         width: 100%;
+
+
      }
 
      .trend-post {
-
+         box-sizing: border-box;
+         width: 49.6%;
          margin-bottom: 3px;
 
      }
 
      .trend-post:nth-child(2n+3) {
-         width: 50%;
+         width: 49.6%;
      }
 
 
      .trend-container {
          flex-grow: 1;
          min-height: 242px;
-        
+
 
      }
 
      .trend-content {
-         padding: 8% 15.7% 8% 8%;
+         padding: 8% 8% 8% 8%;
      }
 
-     .trend-image {
-         width: 50%;
 
-     }
 
      .post-title {
          font-size: 17px;
@@ -1305,7 +1305,7 @@
          flex-direction: row;
          margin-top: 20px;
          margin-right: auto;
-         margin-left: 90px;
+         margin-left: auto;
          padding: 0;
 
      }
@@ -1342,11 +1342,12 @@
          padding-top: 0;
          width: 50%;
          margin-left: auto;
-         margin-right: 70px;
-         margin-top: 20px;
+         margin-right: auto;
+         margin-top: -20px;
 
      }
-      .subscribe-form-button {
+
+     .subscribe-form-button {
          width: 100%;
      }
 
