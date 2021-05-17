@@ -786,7 +786,7 @@
      width: 24.82%;
  }
 
- .trend-post:nth-child(n+2) {
+ .trend-post:nth-child(2n+2) {
      margin-left: 3px;
  }
 
@@ -1352,7 +1352,7 @@
      }
 
      .posts-search-form {
-         width: 90%;
+         width: 88%;
      }
 
      .subscribe-form-input {
@@ -1531,7 +1531,7 @@
      }
 
      .posts-search-form {
-         width: 100%;
+         width: 88%;
      }
 
      .subscribe-form-input {
