@@ -786,7 +786,7 @@
      width: 24.82%;
  }
 
- .trend-post:nth-child(2n+2) {
+ .trend-post:nth-child(n+2) {
      margin-left: 3px;
  }
 
@@ -1269,8 +1269,17 @@
 
      }
 
+     .trend-post:nth-child(3) {
+         margin-left: 0;
+     }
+
+     .trend-post:nth-child(4) {
+         margin-left: 3px;
+     }
+
      .trend-post:nth-child(2n+3) {
          width: 49.6%;
+
      }
 
 
