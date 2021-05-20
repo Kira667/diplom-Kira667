@@ -1350,8 +1350,8 @@
      .side-bar {
          padding-top: 0;
          width: 50%;
-         margin-left: auto;
-         margin-right: auto;
+         margin-left: 10%;
+         margin-right: 10%;
          margin-top: -20px;
 
      }
@@ -1411,7 +1411,7 @@
 
      .main-content {
 
-
+         width: 100%;
          flex: 1;
          margin-right: auto;
          margin-left: auto;
@@ -1421,18 +1421,20 @@
      .main-content-wrapper {
          flex-direction: column;
          margin-top: 45px;
-         margin-right: 15px;
-         margin-left: 15px;
+         margin-right: auto;
+         margin-left: auto;
          padding: 0;
+         width: 100%;
      }
 
      .posts {
          margin-left: 0;
+         width: 100%;
      }
 
      .post {
          flex-direction: column;
-         width: 360px;
+
      }
 
      .post-meta {
@@ -1446,11 +1448,11 @@
 
      .post-text {
          font-size: 14px;
-         width: 360px;
+         width: 100%;
      }
 
      .post-image {
-         width: auto;
+         width: 100%;
      }
 
      .side-bar {
@@ -1488,12 +1490,14 @@
          font-size: 14px;
      }
 
-     .trend {}
+     .trend {
+         width: 100%;
+     }
 
      .trend-posts {
          display: flex;
          flex-wrap: center;
-         width: 100vw;
+         width: 100%;
 
      }
 
@@ -1520,13 +1524,34 @@
          flex-grow: 1;
          min-height: 230px;
 
-         width: 100vw;
+         width: 100%;
      }
 
      .trend-image {
-         width: 100vw;
+         width: 100%;
 
      }
+
+     .trend-garden {
+
+         width: 100%;
+     }
+
+     .trend-cheeze {
+         width: 100%;
+     }
+
+
+
+     .trend-mountain {
+         width: 100%;
+     }
+
+     .trend-limon {
+         width: 100%;
+     }
+
+
 
      .trend-content {
          padding: 8% 15.7% 8% 8%;
