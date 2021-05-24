@@ -9,6 +9,48 @@
 </head>
 
 <body>
+  <!-- POPUP -->
+  <div class="popup">
+    <h2 class="title-popup">ваш фидбек</h2>
+    <div class="popup-container">
+      <label class="popup-nav"> Как часто вы заходите на сайт?
+        <select class="list">
+          <option value="1">Почти каждый день</option>
+          <option value="2">Раз в неделю</option>
+          <option value="3">Раз в месяц</option>
+          <option value="4">Редко</option>
+        </select>
+      </label>
+      <div class="question-1">Вы подписаны на e-mail рассылку?
+        <div class="container-radio">
+          <div class="radio-modal">
+            <label>
+              <input class="input-radio" type="radio" name="radio-group"><div class="answer">Да</div>
+            </label>
+          </div>
+          <div class="radio-modal">
+            <label>
+              <input class="input-radio" type="radio" name="radio-group"><div class="answer">Нет</div>
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="question-2">Расскажите, какой контент вы хотели бы видеть на нашем сайте?
+        <textarea class="question-3" placeholder="Может, больше рецептов?"></textarea>
+      </div>
+      <div class="button-modal">
+        <button class="button-popup" type="submit">отправить</button>
+      </div>
+      <div class="x">
+        <button class="popup-close" type="button"></button>
+      </div>
+      </div>
+    </div>
+  </div>
+
+<div class="box-popup">
+<div class="popup__box"> 
+  
     <!-- HEADER -->
     <header class="header">
         <!-- HEADER-burger -->
@@ -613,55 +655,7 @@
             <a class="copyright-content" href="#0">Copyright © 2009–2019 City Blog LLC.</a>
         </div>
     </footer>
-    <!--POPUP-->
-    <aside class="popup" id="popup">
-        <a href="#0" class="popup__area"></a>
-        <div class="popup__body">
-            <div class="popup__content">
-                <a href="#0" class="popup__close">
-                    <img src="svg/form-x.svg" alt="Крестик - закрывает форму" class="popap__close-x">
-                </a>
-                <h4 class="aside-title">Ваш фидбек</h4>
-                <form class="popup__form">
-                    <button onclick="location.href='#0'" class="popup__close popup__close_size">
-                        <span class="visually-hidden">Крестик - закрывает форму при нажатии</span>
-                    </button>
-                    <h4 class="aside-title">Ваш фидбек</h4>
-                    <div class="popup__form-group">
-                        <label>
-                            <span>Как часто Вы заходите на сайт?</span>
-                            <select name="How-often-visits" class="popup__select popup__select_indent">
-                                <option value="Almost-every-day" selected>Почти каждый день</option>
-                                <option value="Every-few-days">Раз в несколько дней</option>
-                                <option value="Every-few-weeks">Раз в несколько недель</option>
-                                <option value="Several-times-a-year">Несколько раз в год</option>
-                            </select>
-                        </label>
-                    </div>
-                    <div class="popup__form-group">
-                        <span>Вы подписаны на e-mail рассылку?</span>
-                        <div class="radio-group__container">
-                            <label class="popup__radio-group">
-                                <input type="radio" name="popup__radio-group" class="radio-group__mailing">
-                                <span class="radio-group__text">Да</span>
-                            </label>
-                            <label class="popup__radio-group">
-                                <input type="radio" name="popup__radio-group" class="radio-group__mailing">
-                                <span class="radio-group__text">Нет</span>
-                            </label>
-                        </div>
-                    </div>
-                    <div class="popup__form-group">
-                        <label>
-                            <span>Расскажите, какой контент Вы хотели бы видеть на нашем сайте?</span>
-                            <textarea class="popup__textarea" name="What-see" placeholder="Может, больше рецептов?"></textarea>
-                        </label>
-                    </div>
-                    <button type="button" class="button button__popup">Отправить</button>
-                </form>
-            </div>
-        </div>
-    </aside>
+   
 </body>
 
 </html>
