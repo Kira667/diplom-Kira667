@@ -1229,9 +1229,7 @@
          margin-bottom: 13px;
      }
 
-     .popup {
-         margin: 200px 555px 0;
-     }
+    
 
 
  }
@@ -1244,11 +1242,7 @@
          font-size: 100%;
      }
 
-     .popup {
-         margin: 235px 190px 0;
-         left: 12%;
-         top: 5%;
-     }
+    
 
 
 
@@ -1416,55 +1410,12 @@
          font-size: 60%;
      }
 
-     .popup {
-         margin: -35% -37% 0;
-     }
+    
 
-     .title-popup {
-         text-align: center;
-     }
+     
 
 
-     .list {
-         width: 280px;
-         padding: 15px;
-         margin-top: 10px;
-         font-size: 13px;
-         background-size: 10px;
-         background-position: right 10px center;
-
-         -webkit-appearance: none;
-         -moz-appearance: none;
-     }
-
-     .question-3 {
-         width: 280px;
-         height: 130px;
-         margin-top: 10px;
-     }
-
-     .button-modal {
-         margin-bottom: 30px;
-     }
-
-     .button-popup {
-         font-size: 14px;
-         width: 280px;
-     }
-.x {
-     position: absolute;
-     width: 20px;
-     height: 20px;
-     border-radius: 3px;
-
-     background-image: url("./svg/form-x.svg");
-     background-repeat: repeat;
-     background-position: center center;
-     background-size: 25px;
-
-     top: -30px;
-     right: 0;
- }
+     
 
 
 
