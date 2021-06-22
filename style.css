@@ -940,176 +940,166 @@
 
  /* -POPUP- */
 
- .popup {
-     position: absolute;
-     left: 37%;
-     right: 50%;
-     top: 30%;
-     display: flex;
-     flex-wrap: wrap;
-     width: 390px;
-     background-color: #ffffff;
-     font-size: 13px;
-     z-index: 6;
- }
+  
 
- .box-popup {
-     position: relative;
- }
+  ._hidden {
+    
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+  }
 
- .popup__box::after {
-     content: "";
-     position: absolute;
-     background-color: #000000;
-     background-size: cover;
-     top: 0;
-     bottom: 0;
-     left: 0;
-     right: 0;
-     opacity: 0.5;
-     z-index: 5;
- }
+  ._hidden::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000;
+    opacity: 0.5;
+    z-index: 2;
+  }
 
- .title-popup {
-     text-transform: uppercase;
-     font-family: "OpenSana Bold", sans-serif;
-     font-weight: bolder;
-     font-size: 17px;
-     padding: 50px 130px 30px;
- }
+  .popup-close {
+    width: 22px;
+    height: 20px;
+    position: absolute;
+    top: -24px;
+    right: 0;
+    background-image: url("./svg/form-x.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-color: transparent;
+    border: none;
+    padding: 0;
+    text-indent: -9999px;
+    cursor: pointer;
+  }
 
- .title-popup::after {
-     content: "";
-     display: block;
-     width: 66px;
-     border-bottom: 3px solid #b59f5b;
-     opacity: 0.6;
-     margin: 10px auto 0;
- }
+  .popup-close:hover {
+    background-color: #b59f5b;
+  }
 
- .popup-container {
-     display: flex;
-     justify-content: flex-start;
-     flex-wrap: wrap;
-     font-family: "OpenSans Regular", sans-serif;
-     width: 390px;
-     padding: 0 30px;
- }
+  .popup {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 27px 30px 24px;
+    width: 331px;
+    position: relative;
+    z-index: 3;
+    background-color: #ffffff;
+  }
 
- .list {
-     display: inline-block;
-     width: 325px;
-     padding: 20px;
-     margin-top: 10px;
-     color: #727272;
-     background-size: 10px;
-     background-position: right 15px center;
-     background-image: url("./svg/form-arrows.svg");
-     background-repeat: no-repeat;
-     background-color: #f4f7f6;
-     font-size: 13px;
+  .popup-name {
+    font-size: 20px;
+    color: #0f0d0e;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  .popup-name:after {
+    content: "";
+    display: block;
+    height: 3px;
+    width: 67px;
+    margin: 14px auto 29px auto;
+    background-color: #e1d9bd;
+  }
 
-     -webkit-appearance: none;
-     -moz-appearance: none;
- }
+  .select {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 38px;
+    padding-left: 10px;
+    padding-right: 25px;
+    margin-top: 10px;
+    border: none;
+    background-color: #f9f9f9;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #333333;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("./svg/form-arrows.svg");
+    background-repeat: no-repeat;
+    background-size: 10px;
+    background-position: right 10px center;
+  }
+  
+  .select:focus {
+    outline: 2px solid #0f8fee;
+    outline-offset: 4px;
+  }
+  .button {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
 
- .list:valid {
-     border: 0;
-     outline: none;
- }
+  .form-group:nth-child(n+2) {
+    margin-top: 32px;
+  }
 
- .question-1 {
-     padding-top: 25px;
-     padding-bottom: 35px;
- }
+  .checkbox {
+    display: flex;
+    padding-top: 10px;
+  }
 
- .container-radio {
-     display: flex;
-     padding-top: 15px;
- }
+  .block-checkbox:nth-child(n+2) {
+    margin-left: 10px;
+  }
 
- .radio-modal:nth-of-type(1n+2) {
-     padding-left: 30px;
- }
+  .custom-radio {
+    position: absolute;
+    cursor: pointer;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    visibility: hidden;
+  }
 
- .answer::before {
-     content: "";
-     display: inline-block;
-     vertical-align: middle;
-     width: 25px;
-     height: 25px;
-     margin-right: 7px;
-     background-image: url("./svg/form-empty-circle.svg");
-     background-repeat: no-repeat;
-     background-size: 25px;
-     background-position: center center;
- }
+  .popup-icon {
+    display: inline-block;
+    vertical-align: middle;
+    width:  16px;
+    height: 16px;
+    transition: 0.2s;
+    box-shadow: inset 0 0 0 8px #fff;
+    background: gray;
+  }
 
- .input-radio:checked~.answer::before {
-     background-image: url("./svg/form-circle.svg");
- }
+  .popup-icon::before {
+    content: '';
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    background-image: url("./svg/form-empty-circle.svg");
+    background-position: center center;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
 
- .input-radio {
-     display: none;
- }
+  .custom-radio:not(:disabled):active + .popup-icon::before {
+    background-color: #b59f5b;
+    border-color: #b59f5b;
+  }
 
- .question-3 {
-     box-sizing: border-box;
-     resize: none;
-     width: 330px;
-     height: 130px;
-     margin-top: 10px;
-     font-size: 14px;
-     padding: 15px;
-     background-color: #f4f7f6;
- }
-
- .question-3:valid {
-     border: 0;
-     outline: none;
- }
-
- .button-modal {
-     margin-bottom: 50px;
- }
-
- .button-popup {
-     box-sizing: border-box;
-     text-transform: uppercase;
-     width: 330px;
-     color: #ffffff;
-     font-size: 14px;
-     font-family: "OpenSana Bold", sans-serif;
-     padding: 15px;
-     margin-top: 25px;
-     border: none;
-     background-color: #b59f5b;
-     cursor: pointer;
- }
-
- .button-popup:hover {
-     background-color: #83723ee5;
- }
-
- .x {
-     position: absolute;
-     width: 20px;
-     height: 20px;
-     border-radius: 3px;
-
-     background-image: url("./svg/form-x.svg");
-     background-repeat: repeat;
-     background-position: center center;
-     background-size: 25px;
-
-     top: -30px;
-     right: 0;
- }
-
- .popup-close {
-     display: none;
- }
-
+  .custom-radio:checked + .popup-icon::before {
+    background-image: url("./svg/form-circle.svg");
+  }
 
  /*-БУРГЕР И МЕДИА-*/
 
