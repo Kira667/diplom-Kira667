@@ -1125,6 +1125,13 @@
   .button:hover {
     background-color: #313131;
   }
+   .bold {
+    font-family: "OpenSans-Bold";
+  }
+  
+  .regular-font {
+    font-family: "OpenSans-Regular";
+  }
  /*-БУРГЕР И МЕДИА-*/
 
  @media (max-width: 1200px) {
