@@ -943,12 +943,12 @@
 
 
  ._hidden {
-
+     display: none;
      justify-content: center;
      align-items: center;
      height: 100vh;
      position: fixed;
-     top: 0px;
+     top: 0;
      left: 0;
      width: 100%;
      z-index: 10;
@@ -1424,30 +1424,30 @@
          font-size: 60%;
      }
 
-.popup {
-     display: flex;
-     flex-direction: column;
-     margin-left: 15px;
-     margin-right: 10px;
-     top: 50px;
-    
-     width: 70%;
-     position: relative;
-     z-index: 3;
-     background-color: #ffffff;
- }
+     .popup {
+         display: flex;
+         flex-direction: column;
+         margin-left: 15px;
+         margin-right: 10px;
+         top: 50px;
 
- .select-text {
-     margin-top: 12px;
-     border: none;
-     background-color: #ededed;
-     outline: 0;
-     max-width: 255px;
-     min-width: 100px;
-     min-height: 100px;
-     padding-left: 5px;
-     padding-top: 3px;
- }
+         width: 70%;
+         position: relative;
+         z-index: 3;
+         background-color: #ffffff;
+     }
+
+     .select-text {
+         margin-top: 12px;
+         border: none;
+         background-color: #ededed;
+         outline: 0;
+         max-width: 255px;
+         min-width: 100px;
+         min-height: 100px;
+         padding-left: 5px;
+         padding-top: 3px;
+     }
 
 
 
