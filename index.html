@@ -10,49 +10,48 @@
 
 <body>
     <!-- POPUP -->
+    <div class="_hidden">
     <div class="popup">
-    <div class="x">    
-    <button class="popup-close" type="button">Закрыть окно</button>
-
-            <h2 class="title-popup">ваш фидбек</h2>
-            <div class="popup-container">
-                <label class="popup-nav"> Как часто вы заходите на сайт?
-                    <select class="list">
-                        <option value="1">Почти каждый день</option>
-                        <option value="2">Раз в неделю</option>
-                        <option value="3">Раз в месяц</option>
-                        <option value="4">Редко</option>
-                    </select>
+      <button class="popup-close" type="button">Закрыть окно</button>
+      <h2 class="popup-name bold">Ваш фидбек</h2>
+      <div class="page">
+        <form class="form">
+          <div class="form-group">
+            <label class="select-group">
+              <span class="select-label">Как часто вы заходите на сайт?</span>
+              <select class="select">
+                <option value="moscow" selected>Почти каждый день</option>
+                <option value="st-petersburg">Раз в неделю</option>
+                <option value="kazan">Раз в полгода</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-group">
+              <span class="select-label">Вы подписаны на e-mail рассылку?</span>
+              <div class="checkbox">
+                <label class="block-checkbox">
+                  <input class="custom-radio" type="radio" name="option1" value="a1">
+                  <span class="popup-icon"></span>Да
                 </label>
-                <div class="question-1">Вы подписаны на e-mail рассылку?
-                    <div class="container-radio">
-                        <div class="radio-modal">
-                            <label>
-                                <input class="input-radio" type="radio" name="radio-group">
-                                <div class="answer">Да</div>
-                            </label>
-                        </div>
-                        <div class="radio-modal">
-                            <label>
-                                <input class="input-radio" type="radio" name="radio-group">
-                                <div class="answer">Нет</div>
-                            </label>
-                        </div>
-                    </div>
-                </div>
-</div>
-                <div class="question-2">Расскажите, какой контент вы хотели бы видеть на нашем сайте?
-                    <textarea class="question-3" placeholder="Может, больше рецептов?"></textarea>
-                </div>
-                <div class="button-modal">
-                    <button class="button-popup" type="submit">отправить</button>
-                </div>
-            </div>
-        </div>
+                <label class="block-checkbox">
+                  <input class="custom-radio" type="radio" name="option1" value="a2">
+                  <span class="popup-icon"></span>Нет
+                </label>
+              </div>
+          </div>
+          <div class="form-group">
+            <label class="select-group">
+              <span class="select-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</span>
+              <textarea class="select-text" name="user suggestions" cols="50" rows="5" placeholder="Может, больше рецептов?"></textarea>
+            </label>
+          </div>
+          <div class="form-group">
+            <button class="button">Отправить</button>
+          </div>
+        </form>
+      </div>
     </div>
-    </div>
-    <div class="box-popup">
-        <div class="popup__box">
+  </div>
             <!-- HEADER -->
             <header class="header">
                 <!-- HEADER-burger -->
